@@ -12,13 +12,13 @@ Backtest a simple Opening Range Breakout strategy using 5-minute intraday stock 
 ### 📂 Input
 File: market_data.csv
 Columns:
-currentdate – Date (YYYY-MM-DD)
-currenttime – Time (HH:MM)
-high, low, close – OHLC prices
-symbol – Ticker symbol
+currentdate – Date (YYYY-MM-DD)  
+currenttime – Time (HH:MM)  
+high, low, close – OHLC prices  
+symbol – Ticker symbol  
 
 ### 📊 Strategy Logic
-Opening Range: First 5-minute candle of each trading day
+Opening Range: First 5-minute candle of each trading day 
 Buy Signal: Price breaks above the first candle’s high
 Sell Signal: Price breaks below the first candle’s low
 Trade Constraints:
